@@ -347,3 +347,7 @@ Star the repo if you find it useful!
 **Made for terminal-native developers, SSH-first workflows, and anyone who wants Git power without GUI overhead.**  
 
 Let's make Git workflows more open, keyboard-driven, and efficient.
+
+
+##  Star History
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Git-Terminal-UIS&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Git-Terminal-UIS&type=date&legend=top-left)
