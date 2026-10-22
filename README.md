@@ -162,3 +162,96 @@ Your support keeps open-source documentation alive and thriving! 🚀
 - Licensed under the [MIT License](LICENSE).
 # Awesome-Git-Terminal-UIS
 
+# Top Git Terminal UIs Ecosystem
+
+**Curated List of SaaS Products & Open-Source GitHub Projects**  
+*Focused on Keyboard-Driven Git Workflows, Terminal-Native Development & Self-Hosted Productivity*  
+**Last updated: October 2026**
+
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Git Terminal UIs**. These tools bring visual clarity to Git operations inside the terminal—staging hunks, browsing logs, resolving conflicts, and managing branches—without requiring a graphical environment or breaking keyboard flow.
+
+**Examples** include Tower, GitKraken, Sourcetree, Fork, Sublime Merge, GitHub Desktop, SmartGit, TortoiseGit, Lazygit, and GitUI (the category leaders).
+
+**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, SSH-first workflows, and transparent Git interaction—ideal for developers who work on remote servers, prefer keyboard-only navigation, or want to understand exactly what Git is doing. The open-source terminal landscape is anchored by **Lazygit** (the feature-rich daily driver), **GitUI** (the Rust-based speed champion for massive repositories), and **Tig** (the ncurses classic available everywhere), with **Delta** transforming diff output into readable, syntax-highlighted views and **Gitu** offering a Magit-inspired alternative.
+
+Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+
+## Table of Contents
+- [SaaS/Hosted Platforms](#saas-hosted-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
+
+## SaaS/Hosted Platforms
+
+- **[Tower](https://www.git-tower.com/)**  
+  Premium Git client for macOS and Windows with a polished GUI, stacked branches, and advanced workflow automation. **Pricing**: Basic $69/year for individuals; Pro $129/year with stacked branches and advanced custom workflows; Enterprise $149/year with SSO and self-hosted services support . Free 30-day trial available. GUI-only—included for ecosystem context.
+
+- **[GitKraken](https://www.gitkraken.com/)**  
+  Cross-platform Git GUI with visual commit graphs, merge conflict tool, and **AI-powered features** (commit message generation, conflict explanations, changelog generation). **Pricing**: Free tier for local and public repos only; paid plans unlock private remotes, merge tools, and AI credits . GUI-focused with agent workflow integration for Claude Code, Codex, and Copilot.
+
+- **[Sourcetree](https://www.sourcetreeapp.com/)**  
+  Atlassian's **free** Git GUI for Windows and Mac. Supports Git and Mercurial, Git-flow, interactive rebase, and Git LFS . No Linux support. GUI-only.
+
+- **[Fork](https://git-fork.com/)**  
+  Fast and lightweight Git client for macOS and Windows. Clean interface with interactive rebase and conflict resolution. **Currently free in evaluation** with unclear long-term pricing; Windows and macOS only .
+
+- **[Sublime Merge](https://www.sublimemerge.com/)**  
+  Git client from the makers of Sublime Text. Beautiful diff view, three-way merge tooling, and command palette. Commercial license with unlimited free evaluation. GUI with keyboard-driven workflows .
+
+- **[GitHub Desktop](https://desktop.github.com/)**  
+  **Free, open-source** GUI from GitHub for Windows and macOS. Deliberately exposes a small, safe subset of Git operations—commit, push, pull, branch, and open PRs. The gentlest introduction for beginners, but falls back to command line for complex operations . GUI-only.
+
+- **[SmartGit](https://www.smartgit.dev/)**  
+  Cross-platform Git client with support for SVN and Mercurial. **Free for eligible non-commercial use** (hobby, students, open-source, charitable) with registration; commercial licenses available. Features visual history, conflict solver, and Feature Flow . GUI-based.
+
+- **[TortoiseGit](https://tortoisegit.org/)**  
+  **Windows-only** Git client integrated directly into File Explorer via shell extensions. Icon overlays show file status; context menus provide Git operations without opening a separate application . Free and open-source. GUI-integrated.
+
+## Open-Source GitHub Projects
+
+- **[Lazygit](https://github.com/jesseduffield/lazygit)**  
+  The most popular terminal UI for Git, written in Go. **Feature-rich daily driver**: interactive rebasing, cherry-picking, bisect, worktree management, and a built-in merge conflict editor that lets you pick base/local/remote hunk by hunk without opening a three-way merge tool. Staging panel supports both hunk and line-level staging. Configuration via YAML at `~/.config/lazygit/config.yml`. **Trade-offs**: higher memory usage than Rust alternatives, but unmatched feature coverage. Best for most developers who want a complete Git workflow replacement in the terminal .
+
+- **[GitUI](https://github.com/extrawurst/gitui)**  
+  Blazing-fast terminal UI written in Rust. **The performance champion for massive repositories**: parses enormous repos in a fraction of the time and memory of alternatives. **Features**: keyboard-only control with context-based help (no hot-key memorization), stage/unstage/revert files and hunks, stashing, push/fetch, branch management, commit log search, and submodule support . **Known limitations**: no interactive rebase UI (basic rebase only), no merge conflict resolution UI (defers to external editor). Best for developers working on monorepos or enormous codebases where responsiveness is non-negotiable.
+
+- **[Tig](https://github.com/jonas/tig)**  
+  The ncurses-based classic, available in virtually every Linux distribution's package manager. **The universal fallback**: compiles anywhere, runs on minimal systems, no dependencies beyond ncurses . Functions primarily as a repository browser but supports chunk-level staging and acts as a pager for Git output. Vi-style modal keybindings. **Limitations**: no built-in merge conflict resolution, slower than modern alternatives, but extremely low footprint. Best for old servers, embedded systems, minimal distros, and developers who want a no-frills browser that's always available.
+
+- **[Delta](https://github.com/dandavison/delta)**  
+  A syntax-highlighting pager for Git, diff, grep, and blame output. **Not a Git TUI**—it transforms `git diff` output into a readable view with language syntax highlighting, word-level diff inference, and line numbers . Integrates with any Git workflow by setting `core.pager = delta` in `~/.gitconfig`. Works beautifully alongside Lazygit, GitUI, or plain Git commands. Best for anyone who reviews diffs regularly and wants them to be actually readable.
+
+- **[Gitu](https://github.com/altsem/gitu)**  
+  A TUI Git client inspired by **Magit**, written in Rust. Aims to implement core Magit features over time, familiar to previous Magit users . Lighter than GitUI and focused on a Magit-like interaction model. Best for developers familiar with Magit who want a terminal-native alternative outside Emacs.
+
+- **[GRV (Git Repository Viewer)](https://github.com/rgburke/grv)**  
+  A terminal-based Git repository viewer with a focus on browsing commits, branches, and diffs. Features a **query language** for filtering refs and commits, customizable tabs and splits, Vi-like keybindings, and mouse support . Best for users who primarily need repository visualization with powerful filtering rather than full Git operations.
+
+### Additional Strong Open-Source Options
+
+- **Neogit** — A Magit-inspired Git interface for Neovim. Brings the Emacs Magit experience—status buffer, staging, committing, branching, and log browsing—into the Neovim ecosystem. Best for Neovim users who want deep editor integration .
+- **Fugitive** — Vim plugin for Git, deeply integrated into the editor. Best for Vim users who want Git commands without leaving their editing environment.
+- **Magit** — The Emacs Git interface that inspired Neogit and Gitu. Unmatched integration for Emacs users.
+- **Frameworks for building custom systems**: Use **Lazygit** as the primary daily driver, add **Delta** as the Git pager for readable diffs, and keep **Tig** available for SSH sessions on minimal systems. For massive monorepos, use **GitUI** alongside or instead of Lazygit. Neovim users can layer **Neogit** on top for editor-integrated workflows. **Gitu** provides a Magit-like alternative for those who want that specific interaction model.
+
+## How to Contribute
+
+1. Fork the repo.
+2. Add/edit entries in `README.md` (follow existing format).
+3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
+4. Submit PR with a short explanation.
+
+Star the repo if you find it useful!
+
+## Disclaimer
+
+- This is a **community-curated** list — not exhaustive and not an endorsement.
+- Terminal UIs require comfort with the command line; they are not replacements for learning Git fundamentals, though they can make those fundamentals more visible.
+- Performance characteristics vary dramatically by repository size: GitUI excels on monorepos, Lazygit offers more features but higher memory usage, and Tig runs everywhere but slower .
+- Pricing for commercial GUI clients (Tower, GitKraken) changes frequently; verify current rates on official vendor sites before purchasing .
+
+---
+
+**Made for terminal-native developers, SSH-first workflows, and anyone who wants Git power without GUI overhead.**  
+Let's make Git workflows more open, keyboard-driven, and efficient.
