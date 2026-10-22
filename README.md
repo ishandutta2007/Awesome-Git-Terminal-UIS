@@ -160,3 +160,5 @@ Your support keeps open-source documentation alive and thriving! 🚀
 
 - This list is community-curated and not sponsored by or affiliated with Git or any of the vendors mentioned.
 - Licensed under the [MIT License](LICENSE).
+# Awesome-Git-Terminal-UIS
+
