@@ -8,7 +8,7 @@
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome List"/></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Git-Terminal-UIS/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Git-Terminal-UIS?style=flat-square&logo=github" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Git-Terminal-UIS/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Git-Terminal-UIS?style=flat-square&logo=github" alt="GitHub_Stars"/></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License: MIT"/></a>
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -57,7 +57,7 @@ The following commercial and hosted Git clients provide visual workflows, advanc
 
 Open-source Terminal User Interfaces (TUIs) allow developers to stage hunks, resolve conflicts, view commit trees, and manipulate Git refs directly in an SSH terminal session or local command prompt without GUI overhead.
 
-Repositories are listed in descending order of community traction (GitHub Stars ⭐):
+Repositories are listed in descending order of community traction (GitHub_Stars ⭐):
 
 1. **[Lazygit](https://github.com/jesseduffield/lazygit)** [![Stars](https://img.shields.io/github/stars/jesseduffield/lazygit?style=social&color=white)](https://github.com/jesseduffield/lazygit/stargazers) 🦥  
    The definitive terminal UI for Git, written in Go. Feature-rich daily driver supporting line-by-line and hunk staging, interactive rebasing, cherry-picking, stash inspection, and built-in visual merge conflict resolution directly in the console.
@@ -132,7 +132,7 @@ Contributions, tool suggestions, and documentation improvements are welcome! ✨
    - Company revenue or valuation data point.
 4. If adding an open-source tool, include:
    - Stargazers social badge link (`https://img.shields.io/github/stars/<owner>/<repo>?style=social&color=white`).
-   - Appropriate sorted position based on GitHub star count.
+   - Appropriate sorted position based on GitHub Stars_Count.
 5. **Submit a pull request** 🚀 with a concise description of your changes.
 
 ---
