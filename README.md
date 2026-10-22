@@ -132,7 +132,7 @@ Contributions, tool suggestions, and documentation improvements are welcome! ✨
    - Company revenue or valuation data point.
 4. If adding an open-source tool, include:
    - Stargazers social badge link (`https://img.shields.io/github/stars/<owner>/<repo>?style=social&color=white`).
-   - Appropriate sorted position based on GitHub Stars_Count.
+   - Appropriate sorted position based on GitHub_Stars_Count.
 5. **Submit a pull request** 🚀 with a concise description of your changes.
 
 ---
